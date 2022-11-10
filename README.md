@@ -1,7 +1,8 @@
 # Final_Project
-# Group 2
 
-## Team:
+## Group 2
+
+### Team
 
 •	Kinsler, Nick
 
@@ -11,7 +12,7 @@
 
 •	Mesfin, Mia
 
-Roles:
+### Roles
 
 •	Square – GitHub – Sam
 
@@ -21,9 +22,13 @@ Roles:
 
 •	X – Visual Storytelling – Meron and Nick
 
-Topic:
+## Topic
 
-•	Employee Attrition
+Predicting employee attrition.
+
+### Why?
+
+Given the conversation today around workplace burnout and "quite quitting" we were interested to see if we can predict the probability of an employee quiting based on key factors.
 
 Data:
 
