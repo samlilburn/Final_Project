@@ -24,11 +24,12 @@
 
 ## Topic
 
-Predicting employee attrition.
+Real estate price forecast. 
 
 ### Why?
 
-Given the conversation today around workplace burnout and "quite quitting" we were interested to see if we can predict the probability of an employee quiting based on key factors.
+Our topic is the residential real estate market. Originally, our topic was predicting employee burnout. We were interested in this topic because of current conversation around workplace burnout and "quite quitting" we were interested to see if we can predict the probability of an employee quitting based on key factors. However, we found data on this topic to be scarce and inconsistent. After this discovery, we pivoted to analysis of the real estate market. This topic is also highly relevant, and unlike employee attrition rates, has widely available data.
+
 
 Data:
 
