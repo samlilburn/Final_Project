@@ -36,11 +36,15 @@ https://rapidapi.com/realtymole/api/realty-mole-property-api
 
 #### Zip Codes Used
 
-
-|          Zip Codes Used       |
-| ------------- | ------------- |
-| 23233  | 23223  |
-| Content Cell  | Content Cell  |
+| County | Zipcode |
+| --- | --- |
+| Henrico | 23233, 23223, 23060, 23059, 23231, 23228, 23229, 23238, 23227, 23222, 23294, 23226, 23150, 23075, 23230, 23173, 23058, 23242, 23255, 23250, 23273, 23279, 23282, 23280, 23288 |
+| County 2 |  |
+| County 3 |  |
+| County 4 |  |
+| County 5 |  |
+| County 6 |  |
+| County 7 |  |
 
 - Henrico
 
