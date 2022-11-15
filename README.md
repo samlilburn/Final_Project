@@ -2,7 +2,7 @@
 
 ## Group 2
 
-### Team
+### Team & Roles
 
 | Team Member |      Role       |
 | ---         |             --- |
@@ -10,17 +10,6 @@
 | Mesfin, Mia     | Visual Storytelling            |
 | Lilburn, Sam    | Database                       |
 | Marone, Michael | Machine Learning               |
-
-
-### Roles
-
-•	Square – GitHub – Sam
-
-•	Triangle – Machine Learning – Michael
-
-•	Circle – Database – Sam and Nick
-
-•	X – Visual Storytelling – Meron and Nick
 
 ## Current Topic
 
