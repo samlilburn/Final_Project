@@ -23,6 +23,14 @@ Our topic is the residential real estate market. Originally, our topic was predi
 
 https://rapidapi.com/realtymole/api/realty-mole-property-api
 
+```mermaid
+graph TD;
+    API Property Data --> Import data to PostgreSQL database;
+    B-->C;
+    C-->D;
+    C-->D;
+```
+
 #### Zip Codes Used
 
 | County | Zipcode |
