@@ -72,6 +72,8 @@ We anticipate using Tableau for the story telling portion of the project.  We wo
 
 ### Data
 
+https://www.kaggle.com/datasets/blurredmachine/are-your-employees-burning-out
+
 #### Demographic Information
 
 - Employee Id: Unique id for survey participant
