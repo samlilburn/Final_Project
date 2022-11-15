@@ -40,69 +40,60 @@ https://rapidapi.com/realtymole/api/realty-mole-property-api
 - Henrico
     23233, 23223, 23060, 23059, 23231, 23228, 23229, 23238, 23227, 23222, 23294, 23226, 23150, 23075, 23230, 23173, 23058, 23242, 23255, 23250, 23273, 23279, 23282, 23280, 23288
 
-Data:
+## Original Topic:
 
-•	Demographic Information
+Employee Attrition
 
-o	Employee Id – Unique id for survey participant
+### Objective
 
-o	Date Joined – Date hired by company
+Can we predict the likelihood of an employee quitting?
 
-o	Gender – Male, Female, on Unknown
+### Machine Learning
 
-o	Company Type – Designated between service oriented and product oriented
+Based on the data we have access to, we believe the use of an unsupervised model would be best as the outcome is not known.
 
-o	WFH Setup Available – Yes allowed for work from home
+### Database
 
-o	Designation – 1 to 5 with 1 being lower status and 5 being highest status
+We planned on utilizing PostSQL for our database.  The data would be cleaned prior to importing into Post SQL.  The CSV file(s) would run through Python utilizing Jupyter Notebook.  The cleaned file would be exported to a new CSV file.
 
-•	Survey Responses
+### Visualizations
 
-o	Resource Allocation – 1 low resource available and 10 means high number of resources available
+We anticipate using Tableau for the story telling portion of the project.  We would graph out comparisons of the data based on the survey responses compared to demographical information.  Demographical information we planned to use:
 
-o	Mental Fatigue Score – 0 means no fatigue and 10 means completely fatigue
+- Gender
 
-o	Burn Rate – 0 to 100 with 100 being highest level of burnout
+- Company type
 
-Objective:
+- WFH (Work from Home)
 
-•	Can we predict the likelihood of an employee quitting?
+- Designation
 
-o	Based on data we can find, which type of machine learning will be utilized?
+- Other items
 
-	Unsupervised – Outcome is not known
+### Data
 
-o	What type of database are we considering?
+#### Demographic Information
 
-	PostSQL
+- Employee Id: Unique id for survey participant
 
-•	What additional data to use in order to fully use Post SQL?
+- Date Joined: Date hired by company
 
-o	Will the data require clean-up?
+- Gender: Male, Female, on Unknown
 
-	Based on the data we have reviewed thus far; we anticipate running the CSV file through Python to clean-up the data for use.
+- Company Type: Designated between service oriented and product oriented
 
-	New data frame will be created with cleaned data and exported to a CSV file.
+- WFH Setup Available: Yes, allowed for work from home
 
-o	What kind of visualizations are we considering?
+- Designation: 1 to 5 with 1 being lower status and 5 being highest status
 
-	Potentially use of Tableau for the story telling.
+#### Survey Responses
 
-•	Compare demographical information to the survey responses
+- Resource Allocation: 1 low resource available and 10 means high number of resources available
 
-•	Demographical information to use:
+- Mental Fatigue Score: 0 means no fatigue and 10 means completely fatigue
 
-o	Gender
+- Burn Rate: 0 to 100 with 100 being highest level of burnout
 
-o	Company type
+### Switching Topics
 
-o	WFH
-
-o	Designation
-
-o	Other items
-
-	Can we find data on remote working?
-
-•	Other Topics?
-
+During our data procurement phase, we determined the availability of certain data was difficult to find/access.  The model we wanted to create (determining the likelihood of an employee quitting) was difficult to run without making significant assumptions in the absence of readily available data.
