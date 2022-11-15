@@ -4,13 +4,13 @@
 
 ### Team
 
-•	Kinsler, Nick
+| Team Member |      Role       |
+| ---         |             --- |
+| Kinsler, Nick   | Database & Visual Storytelling |
+| Mesfin, Mia     | Visual Storytelling            |
+| Lilburn, Sam    | Database                       |
+| Marone, Michael | Machine Learning               |
 
-•	Lilburn, Sam
-
-•	Marone, Michael
-
-•	Mesfin, Mia
 
 ### Roles
 
