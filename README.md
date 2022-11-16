@@ -1,6 +1,4 @@
-# Final_Project
-
-## Group 2
+# Final_Project - Group 2
 
 ### Team & Roles
 
@@ -15,7 +13,7 @@
 
 ## Current Topic
 
-### Reason for switching topics
+### Reason for switching topics:
 
 During our data procurement phase, we determined the availability of certain data was difficult to find/access.  The model we wanted to create (determining the likelihood of an employee quitting) was difficult to run without making significant assumptions in the absence of readily available data.
 
