@@ -11,7 +11,7 @@
 
 # Week 2
 
-## Current Topic - Real Estate
+## Current Topic: Real Estate
 
 ### Reason for switching topics:
 
@@ -52,9 +52,7 @@ We anticipate using Tableau for the story telling portion of the project. We hav
 
 If given the data of a residential piece of real estate in the Greater Richmond Area (square footage, location, and the other data categories we are analyzing), we hope to answer the question "what is a fair price for this home?" This would allow sellers and buyers to make competitive listings and bids on homes. Additionally, it would allow us to identify listings that are above and below market value. 
 
-## Original Topic:
-
-Employee Attrition
+## Original Topic: Employee Attrition
 
 ### Objective
 
@@ -86,29 +84,8 @@ We anticipate using Tableau for the story telling portion of the project.  We wo
 
 https://www.kaggle.com/datasets/blurredmachine/are-your-employees-burning-out
 
-#### Demographic Information
-
-- Employee Id: Unique id for survey participant
-
-- Date Joined: Date hired by company
-
-- Gender: Male, Female, on Unknown
-
-- Company Type: Designated between service oriented and product oriented
-
-- WFH Setup Available: Yes, allowed for work from home
-
-- Designation: 1 to 5 with 1 being lower status and 5 being highest status
-
-#### Survey Responses
-
-- Resource Allocation: 1 low resource available and 10 means high number of resources available
-
-- Mental Fatigue Score: 0 means no fatigue and 10 means completely fatigue
-
-- Burn Rate: 0 to 100 with 100 being highest level of burnout
-
-
-
+| Demographic Information |      Survey Responses       |
+| ---                     |                         --- |
+| <li>**Employee Id:** Unique id for survey participant</li><li>**Date Joined:** Date hired by company</li><li>**Gender:** Male, Female, on Unknown</li><li>**Company Type:** Designated between service oriented and product oriented</li></li><li>**WFH Setup Available:** Yes, allowed for work from home</li><li>**Designation:** 1 to 5 with 1 being lower status and 5 being highest status</li>  | <li>**Resource Allocation:** 1 low resource available and 10 means high number of resources available</li><li>**Mental Fatigue Score:** 0 means no fatigue and 10 means completely fatigue</li><li>**Burn Rate:** 0 to 100 with 100 being highest level of burnout</li> |
 
 
