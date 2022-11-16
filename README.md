@@ -11,7 +11,7 @@
 
 # Week 2
 
-## Current Topic
+## Current Topic - Real Estate
 
 ### Reason for switching topics:
 
