@@ -101,7 +101,7 @@ print(json.dumps(response, indent=4, sort_keys=True))
 </tr>
 </table>
  
-#### Property Listing Zip Codes Used
+### Property Listing Zip Codes Used
 
 | County | Zipcode |
 | --- | --- |
