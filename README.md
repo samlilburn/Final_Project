@@ -19,7 +19,7 @@
 
 During our data procurement phase, we determined the availability of certain data was difficult to find/access.  The model we wanted to create (determining the likelihood of an employee quitting) was difficult to run without making significant assumptions in the absence of readily available data.
 
-## New Topic:
+### New Topic:
 
 With further invesitgation we zeroed in on a topic that eliminated our previous problems of small datasets and accessible data, real estate. We found plenty of information on property records, current sale listings, and property value estimates from https://rapidapi.com/realtymole/api/realty-mole-property-api. 
 
