@@ -61,7 +61,7 @@ Type = {
 querystring = {"zipCode":"23233","limit":"500"}
 
 headers = {
-	"X-RapidAPI-Key": "c9d75c30e0msh6b1ec26d904f7bbp1c2dc1jsncd17b0835d20",
+	"X-RapidAPI-Key": "**KEY HIDDEN**",
 	"X-RapidAPI-Host": "realty-mole-property-api.p.rapidapi.com"
 }
 
