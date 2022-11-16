@@ -36,6 +36,71 @@ flowchart LR
     A[API Property Data] --> B[Push data to PostgreSQL database] -->|combine all data| C[Generate master dataframe] --> D[Supervised Machine Learning Model]
 ```
 
+### API Active Listing Data Requests
+
+Below is an example of an API request for one of the zip codes within our region of analysis.
+
+<table>
+<tr>
+<th>Code</th>
+<th>JSON Output</th>
+</tr>
+<tr>
+<td>
+  
+```
+url = "https://realty-mole-property-api.p.rapidapi.com/saleListings"
+
+Type = {
+    "Single Family",
+    "Condo",
+    "Townhouse",
+    "Manufactured"
+}
+
+querystring = {"zipCode":"23233","limit":"500"}
+
+headers = {
+	"X-RapidAPI-Key": "c9d75c30e0msh6b1ec26d904f7bbp1c2dc1jsncd17b0835d20",
+	"X-RapidAPI-Host": "realty-mole-property-api.p.rapidapi.com"
+}
+
+response = requests.request("GET", url, headers=headers, params=querystring).json()
+
+print(json.dumps(response, indent=4, sort_keys=True))
+```
+
+</td>
+<td>
+
+```json
+{
+        "addressLine1": "10121 Ridgefield",
+        "bedrooms": 0,
+        "city": "Richmond",
+        "county": "Henrico County",
+        "createdDate": "2022-01-18T09:39:12.536Z",
+        "daysOnMarket": 302,
+        "formattedAddress": "10121 Ridgefield, Richmond, VA 23233",
+        "id": "10121-Ridgefield,-Richmond,-VA-23233",
+        "lastSeen": "2022-11-15T12:27:11.426Z",
+        "latitude": 37.624574,
+        "listedDate": "2022-01-17T16:35:55.000Z",
+        "longitude": -77.598804,
+        "lotSize": 80107,
+        "price": 310000,
+        "propertyType": "Land",
+        "removedDate": null,
+        "state": "VA",
+        "status": "Active",
+        "zipCode": "23233"
+}
+```
+
+</td>
+</tr>
+</table>
+ 
 #### Property Listing Zip Codes Used
 
 | County | Zipcode |
