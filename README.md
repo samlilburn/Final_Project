@@ -1,8 +1,6 @@
-# Final_Project
+# Final Project - Group 2
 
-## Group 2
-
-### Team & Roles
+## Team & Roles
 
 | Team Member |      Role       |
 | ---         |             --- |
