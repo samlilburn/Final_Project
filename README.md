@@ -23,10 +23,10 @@ Our topic is the residential real estate market. Originally, our topic was predi
 
 https://rapidapi.com/realtymole/api/realty-mole-property-api
 
-
+```mermaid 
 flowchart LR
     A[API Property Data] --> B[Push data to PostgreSQL database] -->|combine all data| C[Generate master dataframe] --> D[Supervised Machine Learning Model]
-
+```
 
 #### Zip Codes Used
 
