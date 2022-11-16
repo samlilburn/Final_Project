@@ -97,3 +97,10 @@ https://www.kaggle.com/datasets/blurredmachine/are-your-employees-burning-out
 ### Switching Topics
 
 During our data procurement phase, we determined the availability of certain data was difficult to find/access.  The model we wanted to create (determining the likelihood of an employee quitting) was difficult to run without making significant assumptions in the absence of readily available data.
+
+## New Topic:
+
+With further invesitgation we zeroed in on a topic that eliminated our previous problems of small datasets and accessible data, real estate. We found plenty of information on property records, current sale listings, and property value estimates from https://rapidapi.com/realtymole/api/realty-mole-property-api. 
+
+We will be using the Realty Mole Property API to collect current Property Sale listings of the Greater Richmond area. Converting that information and storing it in PostSQL we will then use Supervised Machine Learning to predict the listing and R to create an optimal range for the listing. 
+
