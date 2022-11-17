@@ -9,13 +9,15 @@
 | Lilburn, Sam    | Database                       |
 | Marone, Michael | Machine Learning               |
 
-# Week 2
+# Week 2 (Refining Topic and Data Gathering)
 
 ## Current Topic: Real Estate
 
-### Reason for switching topics:
+### The Answer We Want 
 
-During our data procurement phase, we determined the availability of certain data was difficult to find/access.  The model we wanted to create (determining the likelihood of an employee quitting) was difficult to run without making significant assumptions in the absence of readily available data.
+If given the data of a residential piece of real estate in the Greater Richmond Area (square footage, location, and the other data categories we are analyzing), we hope to answer the question "what is a fair price to list this home?" This would allow sellers and buyers to make competitive listings and bids on homes. Additionally, it would allow us to identify listings that are above and below market value. 
+
+### Reason for switching topics:
 
 Our topic is the residential real estate market. Originally, our topic was predicting employee burnout. We were interested in this topic because of current conversation around workplace burnout and "quite quitting." Specifically, we hoped to find if we could predict the probability of an employee quitting based on key factors. We found data on this topic to be scarce and inconsistent. After this discovery, we pivoted to analysis of the real estate market. This topic is also highly relevant, and unlike employee attrition rates, has widely available data.
 
@@ -113,9 +115,7 @@ print(json.dumps(response, indent=4, sort_keys=True))
 ### Visualizations 
 We anticipate using Tableau for the story telling portion of the project. We have two heatmaps planned to illustrate our data. The first is a heatmap showing the areas with the highest listed prices. The second is a heatmap visualizing the areas where listings have the shortest time on the market. We believe these visualizations will combine to represent the "hottest" real estate markets in the Greater Richmond Area. 
 
-### The Answer We Want 
-
-If given the data of a residential piece of real estate in the Greater Richmond Area (square footage, location, and the other data categories we are analyzing), we hope to answer the question "what is a fair price for this home?" This would allow sellers and buyers to make competitive listings and bids on homes. Additionally, it would allow us to identify listings that are above and below market value. 
+# Week 1 (Picking a Topic and Finding Data)
 
 ## Original Topic: Employee Attrition
 
@@ -126,6 +126,8 @@ Can we predict the likelihood of an employee quitting?
 ### Machine Learning
 
 Based on the data we have access to, we believe the use of an unsupervised model would be best as the outcome is not known.
+
+[HR_Code]()
 
 ### Database
 
@@ -153,4 +155,6 @@ https://www.kaggle.com/datasets/blurredmachine/are-your-employees-burning-out
 | ---                     |                         --- |
 | <li>**Employee Id:** Unique id for survey participant</li><li>**Date Joined:** Date hired by company</li><li>**Gender:** Male, Female, on Unknown</li><li>**Company Type:** Designated between service oriented and product oriented</li></li><li>**WFH Setup Available:** Yes, allowed for work from home</li><li>**Designation:** 1 to 5 with 1 being lower status and 5 being highest status</li>  | <li>**Resource Allocation:** 1 low resource available and 10 means high number of resources available</li><li>**Mental Fatigue Score:** 0 means no fatigue and 10 means completely fatigue</li><li>**Burn Rate:** 0 to 100 with 100 being highest level of burnout</li> |
 
+### Reason for switching topics:
 
+During our data procurement phase, we determined the availability of certain data was difficult to find/access.  The model we wanted to create (determining the likelihood of an employee quitting) was difficult to run without making significant assumptions in the absence of readily available data.
