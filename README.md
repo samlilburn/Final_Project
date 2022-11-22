@@ -33,7 +33,7 @@
 
 # Week 3 (Data Gathering, Database, and ML Model)
 
-## Topic: What is a fair listing pricing for selling a home in the Greater Richmond area?
+## Topic: What is good market rate to list a home for sale in the Greater Richmond area?
 
 ### Data Gathering
 
