@@ -12,11 +12,17 @@
 ## Data and Code Used
 
 [API_Call_Henrico]()
+
 [API_Call_Chesterfield]()
+
 [API_Call_Hanover]()
+
 [API_Call_Richmond]()
+
 [CSV_Files]()
+
 [Database]()
+
 [ML_Model]()
 
 ## Dashboard
