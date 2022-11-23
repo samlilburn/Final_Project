@@ -46,6 +46,13 @@ Utilizing the API offered by Realty Mole (https://rapidapi.com/realtymole/api/re
 | Hanover | N/A |
 | Henrico | 23173, 23058, 23255, 23250, 23273, 23279, 23282, 23280, 23288 |
 
+### Machine Learning Model
+
+To predict listing prices of properties in the Greater Richmond Area, we are utilizing a supervised machine learning model, specifically linear regression. The use of a linear regression model will allow us to predict a continuous value based on our selected independent variables (Zip Code, Property Type, Sq. Footage, Number of Bedrooms, and Number of Bathrooms). To allow us to include discrete variables, such as Property type, we encoded the data using ```pandas.get_dummies()``` to generate columns with binary classification for a property type as 0 (if not the correct property type for that datapoint) or 1 (if the correct property type for that data point). Since our dataset already has the listing prices, we have fit a supervised machine learning model to a part of our original dataset to train our model and then run each property through our model to predict its listed price. For our machine learning model setup, we split our data into training and testing sets with 80% of data in the training set and 20% in the testing set. The random state values was set to 1 so that any subsequent runs of this model on our dataset will reproduce the results by using the same random state.
+
+After training our model on our training data and predicting the listing prices for the test data, we applied our linear regression model to our whole dataset to predict the price of each property listing and adding it to our dataframe for side by side comparision. 
+
+
 # Week 2 (Refining Topic and Data Gathering)
 
 ## Current Topic: Real Estate
