@@ -111,6 +111,9 @@ y-intercept: [-65013.33]
 </tr>
 </table>
 
+### Dashboard 
+
+We will be using Tableau Public to create the final dashboard. We will also be using D3 for anyone to filter through our data in a user-friendly way. 
 
 # Week 2 (Refining Topic and Data Gathering)
 
