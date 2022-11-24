@@ -52,6 +52,40 @@ To predict listing prices of properties in the Greater Richmond Area, we are uti
 
 After training our model on our training data and predicting the listing prices for the test data, we applied our linear regression model to our whole dataset to predict the price of each property listing and adding it to our dataframe for side by side comparision. 
 
+<table>
+<tr>
+<th>Code</th>
+<th>Model Statistics</th>
+</tr>
+<tr>
+<td>
+  
+```
+# Calculate model statistics
+
+print(f"r-squared: {model.score(X,y).round(decimals=2)}")
+print(f"Adjusted r-squared: {(1 - (1-model.score(X, y))*(len(y)-1)/
+	(len(y)-X.shape[1]-1)).round(decimals=2)}")
+print(f"Coefficients: {(model.coef_).round(decimals=2)}")
+print(f"y-intercept: {(model.intercept_).round(decimals=2)}")
+```
+
+</td>
+<td>
+
+```
+r-squared: 0.8
+Adjusted r-squared: 0.79
+Coefficients: [[ 0.000000e+00  7.000000e-02  1.899100e+02 
+		-5.125930e+04  8.354012e+04 4.800230e+03  
+		4.294047e+04 -4.774070e+04]]
+y-intercept: [-65013.33]
+```
+
+</td>
+</tr>
+</table>
+
 
 # Week 2 (Refining Topic and Data Gathering)
 
