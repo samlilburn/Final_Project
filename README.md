@@ -48,9 +48,30 @@ Utilizing the API offered by Realty Mole (https://rapidapi.com/realtymole/api/re
 
 ### Machine Learning Model
 
-To predict listing prices of properties in the Greater Richmond Area, we are utilizing a supervised machine learning model, specifically linear regression. The use of a linear regression model will allow us to predict a continuous value based on our selected independent variables (Zip Code, Property Type, Sq. Footage, Number of Bedrooms, and Number of Bathrooms). To allow us to include discrete variables, such as Property type, we encoded the data using ```pandas.get_dummies()``` to generate columns with binary classification for a property type as 0 (if not the correct property type for that datapoint) or 1 (if the correct property type for that data point). Since our dataset already has the listing prices, we have fit a supervised machine learning model to a part of our original dataset to train our model and then run each property through our model to predict its listed price. For our machine learning model setup, we split our data into training and testing sets with 80% of data in the training set and 20% in the testing set. The random state values was set to 1 so that any subsequent runs of this model on our dataset will reproduce the results by using the same random state.
+To predict listing prices of properties in the Greater Richmond Area, we are utilizing a supervised machine learning model, specifically linear regression. To generate and preview our full model, we ran data from the zip code 23112 only to ensure our code and model are running properly. The use of a linear regression model will allow us to predict a continuous value based on our selected independent variables (Zip Code, Property Type, Sq. Footage, Number of Bedrooms, and Number of Bathrooms). 
+
+| Dataframe X-values (preview) | Dataframe y-values (preview) |
+| ---------------------------- | ---------------------------- |
+| ![image](https://user-images.githubusercontent.com/108199140/203670057-2afd3630-4329-4bd5-9f75-9353ba178a4f.png)| ![image](https://user-images.githubusercontent.com/108199140/203670116-e2c88515-9f39-4e17-8c5d-9368507c257f.png) |
+
+To allow us to include discrete variables, such as Property type, we encoded the data using ```pandas.get_dummies()``` to generate columns with binary classification for a property type as 0 (if not the correct property type for that datapoint) or 1 (if the correct property type for that data point). Since our dataset already has the listing prices, we have fit a supervised machine learning model to a part of our original dataset to train our model and then run each property through our model to predict its listed price. For our machine learning model setup, we split our data into training and testing sets with 80% of data in the training set and 20% in the testing set. The random state values was set to 0 so that any subsequent runs of this model on our dataset will reproduce the results by using the same random state.
+
+#### Splitting the data into training and testing setse
+
+```
+# Split the data into training and testing dataset
+
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2,random_state = 0)
+```
 
 After training our model on our training data and predicting the listing prices for the test data, we applied our linear regression model to our whole dataset to predict the price of each property listing and adding it to our dataframe for side by side comparision. 
+
+#### Final dataset including predicted prices for each property in area code 23112
+
+![image](https://user-images.githubusercontent.com/108199140/203670485-0d0dbc85-37a2-46ea-8da3-e751b24ce40e.png)
+
 
 <table>
 <tr>
