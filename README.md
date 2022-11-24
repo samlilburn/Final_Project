@@ -39,6 +39,10 @@
 
 Utilizing the API offered by Realty Mole (https://rapidapi.com/realtymole/api/realty-mole-property-api) we were able to run all the zip codes for the major counties in and around the City of Richmond.  The counties include: City of Richmond, Chesterfield, Henrico, and Hanover.  These counties account for 74 zip codes.  The following zip codes did not have any sale listing data available:
 
+### Database
+
+Our database in postreSQL contains 46 tables with identical columns. There is a table for each zip code in the greater Richmond area. 28 tables were removed from the database as they contained no data. The data was imported to the postgresSQL database using SQLAlchemy. We plan to compile all data from the “bedrooms,” “bathrooms,” “squareFootage,” “yearBuilt,” “lotSize,” “propertyType,” “price,” “addressLine1”,” city,” “state,” “zipCode,” “status,” “daysOnMarket,” “latitude”, “longitude,” and “addressLine2” columns using a SQL query. The other columns provided by the API were deemed unnecessary for our analysis. This compiled data will be used for our visualizations and regression analysis. ![image](https://user-images.githubusercontent.com/95889360/203670915-8d65e405-80db-4739-acd1-73d52e1eeca6.png)
+
 | County | Zipcode |
 | --- | --- |
 | City of Richmond | 23284, 23298, 23240, 23218, 23232, 23241, 23249, 23261, 23269, 23274, 23278, 23285, 23286, 23290, 23289, 23292, 23291, 23293 |
