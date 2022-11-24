@@ -41,7 +41,7 @@ Utilizing the API offered by Realty Mole (https://rapidapi.com/realtymole/api/re
 
 ### Database
 
-Our database in postreSQL contains 46 tables with identical columns. There is a table for each zip code in the greater Richmond area. 28 tables were removed from the database as they contained no data. The data was imported to the postgresSQL database using SQLAlchemy. We plan to compile all data from the “bedrooms,” “bathrooms,” “squareFootage,” “yearBuilt,” “lotSize,” “propertyType,” “price,” “addressLine1”,” city,” “state,” “zipCode,” “status,” “daysOnMarket,” “latitude”, “longitude,” and “addressLine2” columns using a SQL query. The other columns provided by the API were deemed unnecessary for our analysis. This compiled data will be used for our visualizations and regression analysis. ![image](https://user-images.githubusercontent.com/95889360/203670915-8d65e405-80db-4739-acd1-73d52e1eeca6.png)
+Our database in postreSQL contains 46 tables with identical columns. There is a table for each zip code in the greater Richmond area. 28 tables were removed from the database as they contained no data. The data was imported to the postgresSQL database using SQLAlchemy. We plan to compile all data from the “bedrooms,” “bathrooms,” “squareFootage,” “yearBuilt,” “lotSize,” “propertyType,” “price,” “addressLine1”,” city,” “state,” “zipCode,” “status,” “daysOnMarket,” “latitude”, “longitude,” and “addressLine2” columns using a SQL query. The other columns provided by the API were deemed unnecessary for our analysis. This compiled data will be used for our visualizations and regression analysis.
 
 | County | Zipcode |
 | --- | --- |
