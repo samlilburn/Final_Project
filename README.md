@@ -29,7 +29,7 @@
 
 [Dashboard]()
 
-[Slides]()
+[Slides](https://docs.google.com/presentation/d/1JI7ge-d46_nkuULEKxNPUVLMTKXlU44sqY1PGESOaps/edit#slide=id.p)
 
 # Week 3 (Data Gathering, Database, and ML Model)
 
