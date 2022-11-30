@@ -31,6 +31,59 @@
 
 [Slides](https://docs.google.com/presentation/d/1JI7ge-d46_nkuULEKxNPUVLMTKXlU44sqY1PGESOaps/edit#slide=id.p)
 
+# Week 4 (Database Compiling, ML Model Finalization, and Vizualizations)
+
+### Machine Learning Model Finalization
+
+Once the master dataframe of all properties in the greater Richmond area were compiled in PostgreSQL, this CSV was imported into Jupyter Notebook for preprocessing. k
+
+#### Dataframe of all properties in the Greater Richmond Area
+
+![full_Df](https://user-images.githubusercontent.com/108199140/204919101-37160888-c534-47d9-9767-035672c78c57.PNG)
+
+Initially running our model we included the independent variables Zip Code, Lot Size, Property Type, Sq. Ft., Bedrooms, and Bathrooms, alongside dependent variable Price. We adjusted the model several times by including and removing variables and adjusting the price cutoff for properties. We decided to include a price cutoff for properties as higher listed homes lost its linearity with their predictions when greated than ~ $1.0 million. Removing the homes with a greater than $1.0 million listings also greatly reduced the error of predictions.
+
+| No Price Cutoff | $1.0 Million Cutoff |
+| ---------------------------- | ---------------------------- |
+| ![price_nocutoff](https://user-images.githubusercontent.com/108199140/204920653-bf70d312-849d-4a29-8367-6697a0b9288d.PNG)| ![price_cutoff](https://user-images.githubusercontent.com/108199140/204920666-c16a7be1-931e-4daf-a4f8-a1bfe8cb0997.PNG)|
+
+In trying to maximize the r-squared value of our model, we looked to which variables were most important. When initially running the model with all of our desired independent variables (Zip Code, Lot Size, Property Type, Sq. Ft., Bedrooms, and Bathrooms), we found that Zip Code and Lot Size show a low correleation with Price and our model shows an r-squared of 0.71. Additionally, approx. 10,000 properties of our ~16,000 property listings had missing values for lot size, decreasing our dataset numbers drastically. Due to this, and its low correlation to Price and it removing a large portion of our workable data, we decided to remove this variable from our model.
+
+#### Correlation matrix of independent and dependent variables
+![lotsize_CM](https://user-images.githubusercontent.com/108199140/204922134-dd40a7f1-befc-4ebc-aea6-894f441ef58e.PNG)
+
+Running our final model with Zip Code, Lot Size, Property Type, Sq. Ft., Bedrooms, and Bathrooms to predict listing Price, our model had an r-squared of 0.71 with its lowest error of all runs with a Root Mean Squared Error of $88583.
+
+<table>
+<tr>
+<th>Model Statistics</th>
+<th>Error Calculations</th>
+</tr>
+<tr>
+<td>
+
+```
+r-squared: 0.71
+Adjusted r-squared: 0.71
+Coefficients: [[   -66.02    139.64 -22117.19  39963.58  14029.78 -59941.83  24807.58
+   21104.47]]
+y-intercept: [1585098.27]
+```
+
+</td>
+<td>
+
+```
+
+Mean Squared Error: 7846950377.396699
+Root Mean Squared Error: 88583.01404556462
+Absolute Mean Error: 62366.79768203578
+```
+
+</td>
+</tr>
+</table>
+
 # Week 3 (Data Gathering, Database, and ML Model)
 
 ## Topic: What is good market rate to list a home for sale in the Greater Richmond area?
