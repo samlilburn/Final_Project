@@ -43,7 +43,7 @@ We then used glob to pull only the csv files from our resource folder, as seen b
 
 ![import_code_2](Images/import_code_2.png)
 
-After compiling the csv files, we combined them into a database as seen below. 
+After compiling the csv files, a for loop was used to combine them into a data frame as seen below. 
 
 ![import_code_3](Images/import_code_3.png)
 
@@ -55,7 +55,7 @@ After importing the data into our database, rva_real_estate, we confirmed all ro
 
 ![import_code_5](Images/import_code_5.png)
 
-
+The final_data table created by this query was exported into a csv and distributed to the team. 
 
 ### Machine Learning Model Finalization
 
