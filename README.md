@@ -108,6 +108,46 @@ Absolute Mean Error: 62366.79768203578
 </tr>
 </table>
 
+### Dashboard
+
+The graphs were created on Tableau Public using the data collected from Real Estate API of current listings in the Central Richmond Area. 
+
+![Heatmap](https://user-images.githubusercontent.com/108151049/204936199-bc72e098-eb3c-4c55-8558-904371e52e88.png)
+
+The first graph is a Heat map of the average prices grouped by Zip Code. This will  illustrates price differences by location. To eliminate outliers, we applied a limit on the listing price. Listings above $80,000 and below $2,500,000 were included. From the total data collected, the average cost was roughly $400,000 which we selected as the median for the Heat map. To create this Heat map we placed two marks, differentiating the Price by color and adding Zip Code to the detail.
+
+<img width="452" alt="Screenshot 2022-11-30 at 10 46 31 AM" src="https://user-images.githubusercontent.com/108151049/204936005-3263f0fd-4282-4ce8-a9ca-51ea76563e8d.png">
+
+Comparing the average Price by Property Type from all listings was very illuminating. 
+
+- Manufactured houses averaged $163,483, 
+- Condo homes averaged $333,938,
+- Townhouses averaged $372,500,
+- Single Family homes 403, 045 
+
+We found that the median house listing in Central Virginia was $393,461. 
+
+According to [Virginia REALTORS](https://virginiarealtors.org/research/reports/home-sales-reports/october-2022-home-sales-report/), the median house sale price in Virginia in October was $365,000. 
+
+According to [Federal Reserve Economic Data](https://fred.stlouisfed.org/series/MSPUS), the median price of houses sold in 2022 in the United States was $428,700. 
+
+Set side by side, Central Virginia is becoming a very expensive place to live compared to the rest of Virginia. 
+Luckily, Central Virginia  is cheaper in regards to the rest of the country, but an expensive location when compared to Virginia. 
+
+<img width="993" alt="Screenshot 2022-11-30 at 10 47 08 AM" src="https://user-images.githubusercontent.com/108151049/204936137-b633e370-89ae-4a2b-afdc-ce5e609e14df.png">
+
+Further analysis on Price and Zip code was needed. Here we highlight all Zip Code's with a reported average of $500,00 or higher. 
+
+![Property Type by Zipcode](https://user-images.githubusercontent.com/108151049/204936161-d6fd41b0-e32d-4dee-a703-7652b193f5f1.png)
+
+Here we really see the magnitude of property types grouped by Zip Code. It's clear to see that in Central Virginia the majority of listings are Single Family houses. In most Zip Codes, condos are the second leading property type on the market, and townhouses are a third with manufactured in the last. 
+
+
+![Property Type (1)](https://user-images.githubusercontent.com/108151049/204936181-b4945f43-8db5-4c38-bc96-e91af9dcd92e.png)
+
+This pie chart further illustrates the quantity of houses by Property Type. Out of the total 16,511 listings 84%. Condos make up 12% and Townhouses are 4% of total listings. There were only 6 listings of Manufactured houses. 
+
+
 # Week 3 (Data Gathering, Database, and ML Model)
 
 ## Topic: What is good market rate to list a home for sale in the Greater Richmond area?
