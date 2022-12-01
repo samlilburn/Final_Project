@@ -41,19 +41,19 @@ To import our data into postgresSQL, we used Python, Pandas and SQLAlchemy. Each
 
 We then used glob to pull only the csv files from our resource folder, as seen below. 
 
-![import_code_2](import_code_2.png)
+![import_code_2](Images/import_code_2.png)
 
 After compiling the csv files, we combined them into a database as seen below. 
 
-![import_code_3](import_code_3.png)
+![import_code_3](Images/import_code_3.png)
 
 Once all the data was in a pandas data frame, we exported the data frame into postgresSQL using the below code.
 
-![import_code_4](import_code_4.png)
+![import_code_4](Images/import_code_4.png)
 
 After importing the data into our database, rva_real_estate, we confirmed all rows transferred using “SELECT COUNT(*) FROM all_data.” Once confirming all our data transferred, we used a SQL query to create a table named final_data. We also used a WHERE statement to filter the property types to “Single Family,” Condo,” Manufactured,” and “Townhouse.” We excluded the “Land” and “Apartment” property types because the API we called uses the “Apartment” property type when referring to rentals and we wanted to analyze housing prices, not land prices. The code for our postresSQL query is below. 
 
-![import_code_5](import_code_5.png)
+![import_code_5](Images/import_code_5.png)
 
 
 
