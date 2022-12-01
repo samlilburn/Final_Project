@@ -37,7 +37,7 @@
 
 To import our data into postgresSQL, we used Python, Pandas and SQLAlchemy. Each csv file for the 74 correlating zip codes for which an API call was made is stored in a folder named “Resources.” The code used to create a file path, create the database engine, and list the files can be seen below. 
 
-![import_code_1](import_code_1.png)
+![import_code_1](Images/import_code_1.png)
 
 We then used glob to pull only the csv files from our resource folder, as seen below. 
 
