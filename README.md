@@ -165,21 +165,21 @@ Utilizing the API offered by Realty Mole (https://rapidapi.com/realtymole/api/re
 
 The code used to generate the real estate data is as follows:
 
-[Data_Analysis1](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis1.png)
+![Data_Analysis1](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis1.png)!
 
 Utilized pandas, requests, and json in python via Jupyter Notebook to run the realty mole API.  The code was ran using each zip code in the Greater Richmond area and limited to 500 results based on the terms of the API.
 
-[Data_Analysis2](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis2.png)
+![Data_Analysis2](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis2.png)!
 
-[Data_Analysis4](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis4.png)
+![Data_Analysis4](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis4.png)!
 
 After running for each zip code, a data frame was created for each zip code.
 
-[Data_Analysis3](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis3.png)
+![Data_Analysis3](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis3.png)!
 
 Ran dtypes on the data frame in order to have the object types available for the creation of the database and machine learning model.
 
-[Data_Analysis5](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis5.png)
+![Data_Analysis5](https://github.com/samlilburn07/Final_Project/blob/main/Images/Data_analysis5.png)!
 
 Imported each data frame to a CSV file to be used for the database.
 
