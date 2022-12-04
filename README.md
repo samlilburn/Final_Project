@@ -35,6 +35,10 @@
 
 [Slides](https://docs.google.com/presentation/d/1JI7ge-d46_nkuULEKxNPUVLMTKXlU44sqY1PGESOaps/edit#slide=id.p)
 
+## Source of Photo Uses in Slides
+
+https://en.m.wikipedia.org/wiki/File:Richmond_%28Virginia%29.jpg 
+
 # Week 4 (Database Compiling, ML Model Finalization, and Visualizations)
 
 ## Database
