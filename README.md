@@ -33,7 +33,7 @@
 
 [Dashboard]()
 
-[Slides](https://docs.google.com/presentation/d/1JI7ge-d46_nkuULEKxNPUVLMTKXlU44sqY1PGESOaps/edit#slide=id.p)
+[Slides](https://docs.google.com/presentation/d/155FoKR3-Gd9kUc8pyXt2UyFQuQiW7cA6/edit#slide=id.p1)
 
 ## Source of Photo Uses in Slides
 
