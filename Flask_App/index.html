@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Property Prices in the Greater Richmond Area</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="jumbotron" style="background-image: url(https://images.unsplash.com/photo-1602343412893-acc15be8c62c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80); background-size: 100%;">
+    <h1 class="display-4"><center>Property Price Predictor</center></h1>
+</div>
+
+<div class="login">
+    <h1>Property Listing Estimates in the Greater Richmond Area</h1>
+
+    <p>This webpage utilizes a supervised machine learning model to generate price estimates! Data for this machine learning model was gathered from Realty Mole Rapid API where 500 active listings were requested from zip codes covering the Greater Richmond Area. Our model is integrated into this webpage form allowing anyone to input their desired home and get a listing price estimate! </p>
+
+     <h3><center>Fill out the following form to predict a listing price!</center></h3>
+
+    <!-- Input for Receiving Query to our MLM -->
+    <form method="POST"><center>
+        Zip Code: <input type="text" name="zipCode" placeholder="23224"><br>
+        Sq. Feet: <input type="text" name="squareFootage" placeholder="5000.0"><br>
+        Bedrooms: <input type="text" name="bedrooms" placeholder="3.0"><br>
+        Bathrooms: <input type="text" name="bathrooms" placeholder="2.0"><br>
+        Condo: <input type="text" name="propertyType_Condo" placeholder="0 = No / 1 = Yes"><br>
+        Manufactured: <input type="text" name="propertyType_Manufactured" placeholder="0 = No / 1 = Yes"><br>
+        Single Family: <input type="text" name="propertyType_SingleFamily" placeholder="0 = No / 1 = Yes"><br>
+        Townhouse: <input type="text" name="propertyType_Townhouse" placeholder="0 = No / 1 = Yes"><br>
+        <br>
+        Predicted Listing Price: {{prediction}} <br>
+        <input type='submit' value='Predict'>
+
+        <!-- <button type="submit" class="btn">Predict</button> -->
+    </center></form>
+
+</div>
+
+</body>
+</html>
