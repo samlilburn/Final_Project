@@ -31,7 +31,7 @@
 
 ## Dashboard
 
-[Dashboard]()
+[Dashboard](https://public.tableau.com/app/profile/meron.mesfin/viz/FinalProjectDay2/Dashboard1)
 
 [Slides](https://docs.google.com/presentation/d/155FoKR3-Gd9kUc8pyXt2UyFQuQiW7cA6/edit#slide=id.p1)
 
