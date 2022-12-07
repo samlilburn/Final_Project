@@ -157,6 +157,12 @@ Here we really see the magnitude of property types grouped by Zip Code. It's cle
 
 This pie chart further illustrates the quantity of houses by Property Type. Out of the total 16,511 listings 84%. Condos make up 12% and Townhouses are 4% of total listings. There were only 6 listings of Manufactured houses. 
 
+### Flask App
+
+We created a Flask app to integrate our machine learning model into a webpage. This app allows users to fill in house characteristics into a form and once submitted, the webpage will generate a listing price.
+
+![image](https://user-images.githubusercontent.com/108199140/206319106-0e892eb8-6be9-41be-a66e-8e5607adf6b1.png)
+
 
 # Week 3 (Data Gathering, Database, and ML Model)
 
