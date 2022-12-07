@@ -29,6 +29,8 @@
 
 [ML_Model_Data](https://github.com/samlilburn07/Final_Project/blob/main/RMP_MLM_Predictions.csv)
 
+[Flask App](https://github.com/samlilburn07/Final_Project/tree/main/Flask_App)
+
 ## Dashboard
 
 [Dashboard](https://public.tableau.com/app/profile/meron.mesfin/viz/FinalProjectDay2/Dashboard1)
